@@ -1,0 +1,97 @@
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+html {
+	font-family: 'open sans', sans-serif;
+	font-size: 18px;
+	color: #151515;
+}
+
+a:link, a:visited {
+	color: #1e87dd;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, p, ul, ol, .ui-block {
+	margin-bottom: 20px;
+}
+
+header {
+	color: #fff;
+	width: 100vw;
+	height: 100vh;
+	min-height: 400px;
+	background: linear-gradient(0deg, rgba(0,0,0,0.7), transparent 50%), url(photos/turtle.jpg) center center / cover no-repeat;
+}
+
+footer {
+	color: #fff;
+	width: 100vw;
+	height: 425px;
+	background: url(photos/rainbow.jpg) center center / cover no-repeat;
+}
+
+h1 {
+	position: absolute;
+	bottom: 120px;
+	font-size: 44px;
+}
+
+section {
+	padding: 40px 0;
+	border-top: 1px solid #e6e6e6;
+}
+
+.contain {
+	width: 800px;
+	margin: auto;
+	padding: 0 20px;
+}
+
+.main-nav {
+	display: table;
+	width: 100%;
+	background-color: #e6e6e6;
+}
+.main-nav_btn {
+	padding: 20px 0;
+	font-size: 20px;
+}
+
+
+/* Utility Classes */
+
+.table {
+	display: table;
+	width: 100%;
+}
+.table--fixed {
+	table-layout: fixed;
+}
+.td {
+	display: table-cell;
+	vertical-align: top;
+}
+
+.td--col {
+	padding-right: 15px;
+}
+
+.td--col:last-child {
+	padding-right: 0;
+}
+
+.float-right {
+	float: right;
+}
+
+.float-right-img {
+	float: right;
+	margin: 0 0 15px 15px;
+}
