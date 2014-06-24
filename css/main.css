@@ -34,7 +34,8 @@ header {
 footer {
 	color: #fff;
 	width: 100vw;
-	height: 425px;
+	height: 600px;
+	height: 80vh;
 	background: url(photos/rainbow.jpg) center center / cover no-repeat;
 }
 
