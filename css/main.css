@@ -14,35 +14,27 @@ a:link, a:visited {
 	color: #1e87dd;
 	text-decoration: none;
 }
+
 a:hover {
 	text-decoration: underline;
 }
 
-h1, h2, h3, h4, h5, p, ul, ol, .ui-block {
+h1 {
+	margin-bottom: 0px;
+	color: #fff;
+	font-size: 44px;
+}
+
+h2, h3, h4, h5, p, ul, ol, .ui-block {
 	margin-bottom: 20px;
 }
 
 header {
-	color: #fff;
-	width: 100vw;
-	height: 600px; 
-	height: 88vh;
-	min-height: 400px;
-	background: linear-gradient(0deg, rgba(0,0,0,0.7), transparent 50%), url(photos/turtle.jpg) center center / cover no-repeat;
-}
-
-footer {
-	color: #fff;
-	width: 100vw;
-	height: 600px;
-	height: 80vh;
-	background: url(photos/rainbow.jpg) center center / cover no-repeat;
-}
-
-h1 {
-	position: absolute;
-	bottom: 120px;
-	font-size: 44px;
+	background-image: url(photos/box_turtle_header.jpg);
+	background-size: cover;
+	background-position: center top;
+	padding-top: 300px;
+	background-repeat: no-repeat;
 }
 
 section {
@@ -51,31 +43,23 @@ section {
 }
 
 .contain {
-	width: 800px;
+	min-width: 700px;
+	max-width: 750px;
 	margin: auto;
 	padding: 0 20px;
 }
 
-.main-nav {
-	display: table;
-	width: 100%;
-	background-color: #e6e6e6;
-}
-.main-nav_btn {
-	padding: 20px 0;
-	font-size: 20px;
-}
-
-
 /* Utility Classes */
+
+.inline-table {
+	display: inline-table;
+}
 
 .table {
 	display: table;
 	width: 100%;
 }
-.table--fixed {
-	table-layout: fixed;
-}
+
 .td {
 	display: table-cell;
 	vertical-align: top;
@@ -85,15 +69,10 @@ section {
 	padding-right: 15px;
 }
 
-.td--col:last-child {
+.td--col2 {
+	padding-right: 25px;
+}
+
+.td--col:last-child, .td--col2:last-child {
 	padding-right: 0;
-}
-
-.float-right {
-	float: right;
-}
-
-.float-right-img {
-	float: right;
-	margin: 0 0 15px 15px;
 }
